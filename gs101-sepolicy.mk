@@ -6,6 +6,9 @@ BOARD_SEPOLICY_DIRS += device/google/gs101-sepolicy/tracking_denials
 
 PRODUCT_PRIVATE_SEPOLICY_DIRS += device/google/gs101-sepolicy/private
 
+# ConnectivityThermalPowerManager
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/connectivity_thermal_power_manager
+
 # Display
 BOARD_SEPOLICY_DIRS += device/google/gs101-sepolicy/display/common
 BOARD_SEPOLICY_DIRS += device/google/gs101-sepolicy/display/gs101
