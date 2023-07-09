@@ -19,7 +19,7 @@ BOARD_SEPOLICY_DIRS += device/google/gs101/sepolicy/whitechapel/vendor/google
 # unresolved SELinux error log with bug tracking
 BOARD_SEPOLICY_DIRS += device/google/gs101/sepolicy/tracking_denials
 
-PRODUCT_PRIVATE_SEPOLICY_DIRS += device/google/gs101/sepolicy/private
+PRODUCT_PRIVATE_SEPOLICY_DIRS += device/google/gs101-sepolicy/private
 
 # Display
 BOARD_SEPOLICY_DIRS += device/google/gs101/sepolicy/display/common
